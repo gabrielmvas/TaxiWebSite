@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/icon/ico256x256.png">
+
+    <title>ViajaBem - Rádio Táxi</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-style">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img style="margin-top: 5px;" src="assets/img/icon/ico256x256.png" width="50" height="50">
+        <img style="margin-top: 7px;" src="assets/img/logo.png" width="100" height="50">
+      </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financeiro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Administrativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Corridas</a>
+          </li>
+        </ul>                 
+        <div class="mt-2 mt-md-0 ">
+            <img src="./assets/img/user_null.png" width="30" height="30" style="border-radius: 50%;border: 2px solid #ffcc00;margin-top: 5px;float: leftborder-radius: 3%; border: 1px solid  black;">
+        </div>
+      </div>
+    </nav>
+    <!-- init -->
+    <form style="margin-top: 80px;">       
+        <div class="container"style="margin-top: 10px;">
+            <h5>Nova Viagem</h5><hr>
+            <div class="row dados" style="height: 500px;margin-top: 20px;">
+                <div class="container"style="margin-top: 25px;">
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome do Cliente:</label>
+                        <input class="form-control" type="text" id="nome" placeholder="Nome" pattern="[A-Za-z]+" maxlength="40" required> 
+                    </div>    
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input class="form-control" type="text" id="telef" placeholder="Telefone" pattern="^\d{11}$" maxlength="2" required>
+                    </div>  
+                    
+                    <div class="form-group">
+                        <label for="localPartida">Local de Partida:</label>
+                        <input class="form-control" type="text" id="localPartida" placeholder="Partida" maxlength="45" required>  
+                    </div>    
+                    
+                    <div class="form-group">
+                        <label for="localDestino">Local de Destino:</label>
+                        <input class="form-control" type="text" id="localDestino" placeholder="Destino" required>     
+                    </div>    
+                    
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group" style="width: 80%;">
+                                    <label for="localDestino">Data/Hora:</label>
+                                    <input class="form-control" type="datetime-local" id="dataHora"  maxlength="45" required>     
+                            </div> 
+                        </div>
+                        <div class="col-8">
+                            <div class="form-group">
+                                <label for="selecao">Colaboradores disponíveis:</label>
+                                <select class="form-control" id="selecao">
+                                    <option>Jão Roberto Carlos</option>
+                                    <option>Roberto Carlos Silva</option>
+                                </select>      
+                            </div>  
+                        </div>                    
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        
+        <div class="container"style="margin: 10px;">
+            <div class="row">
+                <div class="col-6">
+                    <a href="deashboard.html" class="btn btn-secondary"style="margin-left: 60%">Cancelar</a>
+                    
+                </div>
+                <div class="col-6">
+                    <input class="btn btn-success" type="submit" value="Registrar" style="margin-left: 100%">        
+                </div>    
+            </div>
+
+        </div>
+
+    </form>     
+    <!-- Begin page content -->
+    <footer class="footer">
+      <div class="container">
+        <div class="textoFooter">
+            <span class="text-muted">ViajaBem Rádio-Táxi © 2018</span>
+            <span class="text-muted">SCS 2, Lote 2, Ed. Plaza, Sala 302 - Asa Sul, Brasília - DF</span><br>
+            <span class="text-muted">Contato: (61) 3333-4444 | atendimento@viajabem.com.br</span>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery/jquery-3.1.1.slim.min.js"></script>
+    <script src="./assets/js/tether.min.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>

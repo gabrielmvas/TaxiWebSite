@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/icon/ico256x256.png">
+
+    <title>ViajaBem - Rádio Táxi</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-style">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img style="margin-top: 5px;" src="assets/img/icon/ico256x256.png" width="50" height="50">
+        <img style="margin-top: 7px;" src="assets/img/logo.png" width="100" height="50">
+      </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financeiro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Administrativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Corridas</a>
+          </li>
+        </ul>                 
+        <div class="mt-2 mt-md-0 ">
+            <img src="./assets/img/user_null.png" width="30" height="30" style="border-radius: 50%;border: 2px solid #ffcc00;margin-top: 5px;float: leftborder-radius: 3%; border: 1px solid  black;">
+        </div>
+      </div>
+    </nav>
+    <!-- init -->
+    <div class="container"style="margin-top: 10px;">
+        
+        
+        
+        <h5>Detalhes da Viagem</h5><hr>
+
+        <div class="row" style="height: 50px;margin-top: 30px">
+            <div class="col-8 botoesFluxo">
+                <a href="" class="btn btn-secondary">Cancelado - Cliente</a>
+                <a href="" class="btn btn-secondary">Cancelado - Cooperador</a>
+                <a href="" class="btn btn-secondary">Aviso Efetuado</a>
+            </div>
+            <div class="col-4 fluxo">
+                <strong><p style="">Status atual:</p></strong><mark class="btn" id="status" style="float: right;background-color: #ffcc00; height: 75%;">AGUARDANDO - VR</mark>            
+            </div>
+        </div>
+
+
+        <div class="row dados" style="height: 500px;margin-top: 20px;">       
+            <div class="container"style="margin-top: 15px;height: 1px;"> 
+                <div class="row" style="margin-top: 10px;height: 200px;">
+                    <div class="col-6 dadosCliCoop" >
+                        <h6>Colaborador</h6><hr style="width: 80%;">
+                        <div class="row">
+                            <img src="assets/img/icon/icoMoto.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Nome:</b>
+                            <p style="float: right; margin-left: 2%;">João Silva Cabrito</p><br>
+                        </div>
+                       <div class="row">
+                            <img src="assets/img/icon/icoID.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">VR do colaborador:</b>
+                            <p style="float: right; margin-left: 2%;">001</p><br>
+                       </div>
+                       <div class="row">
+                            <img src="assets/img/icon/icoCarro.png" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Placa:</b>
+                            <p style="float: right; margin-left: 2%;">ABC-001</p>
+                       </div>
+                    </div>
+                        
+                    <div class="col-6 dadosCliCoop">
+                        <h6>Cliente</h6><hr style="width: 80%;">
+                        <div class="row">
+                            <img src="assets/img/icon/icoCliente.png" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Nome:</b>
+                            <p style="float: right; margin-left: 2%;">Ricardo Junior Soares</p>
+                        </div>
+                        <div class="row">
+                            <img src="assets/img/icon/icoTelefone.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Telefone:</b>
+                            <p style="float: right; margin-left: 2%;">(61)99999-9999</p>
+                        </div> 
+                    </div>               
+                </div>
+                
+                <div class="row" style="margin-top: 0px;" >
+                    <div class="col-12"><hr style="width: 90%;"><h6>Viagem</h6><hr style="width: 90%;"> </div>
+                    <div class="col-6 dadosCliCoop" >
+                        <div class="row">
+                            <img src="assets/img/icon/icoLocalidade.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Local de partida:</b>
+                            <p style="float: right; margin-left: 2%;">Aguas Claras</p>
+                        </div>
+                        <div class="row">
+                            <img src="assets/img/icon/icoLocalidade.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Destino:</b>
+                            <p style="float: right; margin-left: 2%;">Deck, Asa Sul</p>
+                        </div>
+                        <div class="row">
+                            <img src="assets/img/icon/icoChave.png" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Código da viagem:</b>
+                            <p style="float: right; margin-left: 2%;">VGA001</p>
+                        </div>
+                    </div>   
+                    <div class="col-6 dadosCliCoop" >
+                        <div class="row">
+                            <img src="assets/img/icon/icoDataHora.png" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Data/Hora da saida:</b>
+                            <p style="float: right; margin-left: 2%;">02/07/2018 00:00</p>
+                        </div>
+                        <div class="row">
+                            <img src="assets/img/icon/icoHora.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Tempo estimado de chegada:</b>
+                            <p style="float: right; margin-left: 2%;">20 minutos</p>
+                        </div>
+                        <div class="row">
+                            <img src="assets/img/icon/icoHora.jpg" width="25px" height="25px" style="position: absolute; margin-left: 13%">
+                            <b style="float: left; margin-left: 20%">Tempo da viagem:</b>
+                            <p style="float: right; margin-left: 2%;">00:00</p>
+                        </div>    
+                    </div>
+                </div>               
+            </div>
+        </div>
+        <a href="viagens.html" class="btn btn-secondary"style="margin-top: 20px;">Voltar</a>
+    </div>
+       
+
+    
+      
+    <!-- Begin page content -->
+    <footer class="footer">
+      <div class="container">
+        <div class="textoFooter">
+            <span class="text-muted">ViajaBem Rádio-Táxi © 2018</span>
+            <span class="text-muted">SCS 2, Lote 2, Ed. Plaza, Sala 302 - Asa Sul, Brasília - DF</span><br>
+            <span class="text-muted">Contato: (61) 3333-4444 | atendimento@viajabem.com.br</span>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery/jquery-3.1.1.slim.min.js"></script>
+    <script src="./assets/js/tether.min.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
+
+
+
